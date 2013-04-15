@@ -212,6 +212,9 @@
 .shop-security img.pull-left {
   margin-right: 10px;
 }
+.billing-message {
+  padding: 0 24px 24px 24px;
+}
 .shipping-message {
   padding: 0 24px 24px 24px;
 }
