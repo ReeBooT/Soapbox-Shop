@@ -13,12 +13,14 @@
 	</style>
 	{{ "bootstrap-responsive.css" | asset_url | stylesheet_tag }}
 	{{ "font-awesome.css" | asset_url | stylesheet_tag }}
+	{{ "prettyphoto/css/prettyPhoto.css" | asset_url | stylesheet_tag }}
 	{{ "mixture.css" | asset_url | stylesheet_tag }}
 	{{ "sbx-shop.css" | asset_url | stylesheet_tag }}
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 	{{ "modernizr-latest.js" | asset_url | script_tag }}
 </head>
 <body>
+
 	{% include "navigation" %}
 	<header class="jumbotron subhead">
   		<div class="container">
@@ -31,7 +33,16 @@
 			{% block content %}{% endblock %}
 		</div>
 	</div>
+
 	<script src="//code.jquery.com/jquery.min.js"></script>
 	{{ "bootstrap.js" | asset_url | script_tag }}
+	{{ "prettyphoto/js/jquery.prettyPhoto.js" | asset_url | script_tag }}
+
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+	</script>
+
 </body>
 </html>

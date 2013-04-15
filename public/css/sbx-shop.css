@@ -155,6 +155,19 @@
 .cart-table td.item-total {
   text-align: right;
 }
+.cart-table tr.itemstatus-dc .item-qty,
+.cart-table tr.itemstatus-na .item-qty {
+  padding-top: 26px;
+}
+.cart-table tr.itemstatus-dc td {
+  color: #888;
+}
+.cart-table tr.itemstatus-dc h4.title,
+.cart-table tr.itemstatus-dc .item-price,
+.cart-table tr.itemstatus-dc .item-qty,
+.cart-table tr.itemstatus-dc .item-total {
+  text-decoration: line-through;
+}
 .cart-total {
   font-size: 18px;
   line-height: 1em;
