@@ -33,7 +33,7 @@
 				<td class="item-product">
 					<h4 class="title">Out of stock product</h4>
 					<p class="desc">This item is out of stock, the qty selector will be disabled.</p>
-					<span class="label">out of stock</span>
+					<span class="label label-oos">out of stock</span>
 				</td>
 				<td class="item-price">$##.##</td>
 				<td class="item-qty">{% include "select-qty-disabled" %}</td>
@@ -44,7 +44,7 @@
 				<td class="item-product">
 					<h4 class="title">Not available product</h4>
 					<p class="desc">This item is not available, the qty selector will be replaced w/ N/A.</p>
-					<span class="label">not available</span>
+					<span class="label label-na">not available</span>
 				</td>
 				<td class="item-price">$##.##</td>
 				<td class="item-qty">N/A</td>
@@ -55,7 +55,7 @@
 				<td class="item-product">
 					<h4 class="title">Discontinued product</h4>
 					<p class="desc">This item is discontinued, the qty selector will be replaced w/ N/A and striketrhoughs will be used.</p>
-					<span class="label">discontinued</span>
+					<span class="label label-dc">discontinued</span>
 				</td>
 				<td class="item-price">$##.##</td>
 				<td class="item-qty">N/A</td>
@@ -66,7 +66,7 @@
 				<td class="item-product">
 					<h4 class="title">In stock w/ label</h4>
 					<p class="desc">In stock item w/ a stock label showing thumbnail hover state</p>
-					<span class="label">in stock</span>
+					<span class="label label-in">in stock</span>
 				</td>
 				<td class="item-price">$##.##</td>
 				<td class="item-qty">{% include "select-qty" %}</td>
@@ -84,8 +84,4 @@
 			</tr>
 		</tbody>
 	</table>
-	<div class="cart-total clearfix">
-		<span class="title">Total:</span>
-		<span class="amount">$0.00</span>
-	</div>
 </div>

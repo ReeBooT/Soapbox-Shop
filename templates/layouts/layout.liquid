@@ -37,10 +37,14 @@
 	<script src="//code.jquery.com/jquery.min.js"></script>
 	{{ "bootstrap.js" | asset_url | script_tag }}
 	{{ "prettyphoto/js/jquery.prettyPhoto.js" | asset_url | script_tag }}
+	{{ "mosaic/js/mosaic.1.0.1.js" | asset_url | script_tag }}
 
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function(){
 			$("a[rel^='prettyPhoto']").prettyPhoto();
+			// $('.bar').mosaic({
+			// 	animation	:	'slide'
+			// });
 		});
 	</script>
 
