@@ -84,6 +84,9 @@
 .section-accordion .section-body fieldset h4.subtitle {
   margin-top: 0;
 }
+.section-thankyou {
+  margin-top: 0;
+}
 .shop-table {
   margin-bottom: 0;
 }
@@ -233,6 +236,9 @@
 }
 .order-message {
   margin-top: 24px;
+}
+.shop .col-sidebar {
+  position: relative;
 }
 .help-block {
   margin-top: 6px;

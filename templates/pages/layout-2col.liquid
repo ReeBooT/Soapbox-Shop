@@ -16,8 +16,11 @@
 			{% include "section-pageoutro" %}
 		</div>
 		<div class="span4 col-sidebar">
-			{% include "section-help" %}
-			{% include "section-security" %}
+			{% comment %}<div class="affix">{% endcomment %}
+				{% include "section-ordersummary-sidebar" %}
+				{% include "section-help" %}
+				{% include "section-security" %}
+			{% comment %}</div>{% endcomment %}
 		</div>
 
 	</div>
