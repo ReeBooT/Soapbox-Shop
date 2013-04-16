@@ -1,14 +1,13 @@
 {
-	"folders":
-	[
-		{
-			"path": "/Applications/MAMP/htdocs/mixture.io/soapboxshop"
-		},
-		{
-			"path": "/Applications/MAMP/htdocs/mixture.io/demo-frontendconf"
-		},
-		{
-			"path": "/Applications/MAMP/htdocs/mixture.io/mixture-event-tutorial"
-		}
-	]
+ "folders": [
+  {
+   "path": "/Applications/MAMP/htdocs/mixture.io/soapboxshop"
+  }, 
+  {
+   "path": "/Applications/MAMP/htdocs/localsoapbox.com"
+  }, 
+  {
+   "path": "/Applications/MAMP/htdocs/localsoapbox.com"
+  }
+ ]
 }

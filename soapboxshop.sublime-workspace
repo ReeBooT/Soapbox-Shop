@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
 				"co",
 				"color"
 			],
@@ -12,36 +52,16 @@
 				"padding"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
 				"webkit-border-",
 				"-webkit-border-radius:   (property)"
-			],
-			[
-				"text",
-				"text-transform"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"padding",
 				"padding-top"
 			],
 			[
-				"pad",
-				"padding-right"
-			],
-			[
 				"tab",
 				"table-cell"
-			],
-			[
-				"te",
-				"text-align"
 			],
 			[
 				"no",
@@ -100,44 +120,115 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-ordersummary.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-billing.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/layout-default.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-security.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/variables.less",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/custom.css",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/layouts/layout.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/sections/select-month.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/layout-2col.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/layout-default.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/sections/section-billing.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/sections/section-shipping.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/sections/section-security.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/sections/section-billing-cashcheck.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/section-pageheader.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/components/com_store/models/store.php",
+		"/Applications/MAMP/htdocs/localsoapbox.com/components/com_store/store.php",
+		"/Applications/MAMP/htdocs/localsoapbox.com/components/com_store/controller.php",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/section-billing.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/components/com_store/assets/smarty_store.php",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/includes/section-pageheader.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/includes/section-pageintro.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/includes/section-pageoutro.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/includes/section-products-states.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/includes/section-products.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/com_store/store/includes/select-qty.liquid",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/typographyModule.html",
+		"/Applications/MAMP/htdocs/localsoapbox.com/components/com_store/views/store/view.html.php",
+		"/Applications/MAMP/htdocs/localsoapbox.com/components/com_store/views/store/tmpl/default.php",
+		"/Applications/MAMP/htdocs/localsoapbox.com/components/com_store/views/store/tmpl/default.xml",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/system/html/_modules.php",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/sbx-shop/bootstrap-overrides.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/sbx-shop/sections.less",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-products.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-shipping.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-qty.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-contact.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-help.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-pageheader.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-pageoutro.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-products-states.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/mixture.css",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/layouts/layout.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/js/mosaic/base.html",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/layout-2col.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-ordersummary-sidebar.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-thankyou.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/layout-thankyou.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/navigation.liquid",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-pageintro.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-pageheader.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/layout-default.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-ordersummary.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/js/prettyphoto/index.html",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-products.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-qty-disabled.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-billing-paypal.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-billing-invoice.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-billing.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-contact.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-help.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-ordersummary.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-pageheader.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-pageintro.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-pageoutro.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-shipping.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-security.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-shipping-digital.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-shipping-both.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/demo-frontendconf/templates/attending.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-shipping.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-contact.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/layouts/layout-accordion.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-billing.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-billing-cashcheck.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/billing/paypal.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/billing/invoice.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/model.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/mixture.json",
+		"/Users/ReeBooT/Desktop/About Us.html",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/layouts/gptw.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/models/model.json",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/sbx-shop/sbx-shop.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/sbx-shop.css",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/buttons.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/button-groups.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/navbar.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/navs.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/forms.less",
+		"/Applications/MAMP/htdocs/mixture.io/demo-frontendconf/models/home-attending.json",
+		"/Applications/MAMP/htdocs/mixture.io/demo-frontendconf/templates/layouts/layout.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/demo-frontendconf/templates/2012.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/demo-frontendconf/templates/workshop.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/demo-frontendconf/templates/registration-info.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/demo-frontendconf/templates/home-attending.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/code.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/site.css",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/custom.min.css",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/alerts.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/custom.css",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/public/css/less/variables.less",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-pageoutro.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-security.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-year.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/section-help.liquid",
+		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-qty.liquid",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-country.liquid",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-payment.liquid",
 		"/Users/ReeBooT/Downloads/bootstrap-3.0.0-wip/docs/docs.html",
 		"/Users/ReeBooT/Downloads/bootstrap/img/glyphicons-halflings-white.png",
 		"/Users/ReeBooT/Downloads/bootstrap/img/glyphicons-halflings.png",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-products.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/navigation.liquid",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-month.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-year.liquid",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-state.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-contact.liquid",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-states.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-help.liquid",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/includes/select-states",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/models/model.json",
 		"/Users/ReeBooT/Library/Application Support/Sublime Text 2/Packages/User/HTML (Liquid).sublime-settings",
 		"/Users/ReeBooT/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-billing.liquid",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/pages/section-shipping.liquid",
 		"/Users/ReeBooT/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/ReeBooT/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/soapboxshop.sublime-project",
-		"/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/model.liquid",
 		"/Users/ReeBooT/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
 		"/Volumes/Macintosh HD/Applications/MAMP/htdocs/mixture.io/soapboxshop/templates/index.liquid"
 	],
@@ -157,6 +248,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"includes/",
+			"./About",
+			".About_Us",
 			"radius"
 		],
 		"highlight": true,
@@ -165,6 +259,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"sections/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -213,7 +308,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

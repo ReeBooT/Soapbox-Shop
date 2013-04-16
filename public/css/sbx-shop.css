@@ -132,6 +132,9 @@
 .shop-table td.item-product {
   color: #666;
 }
+.shop-table img.pull-left {
+  margin-right: 20px;
+}
 .cart-table h4.title {
   margin: 2px 0 0 0;
 }
@@ -240,6 +243,12 @@
 .shop .col-sidebar {
   position: relative;
 }
+input.input-creditcard {
+  background: url("../img/payment-cards.png") no-repeat right -13px;
+}
+input.input-ccv {
+  background: url("../img/payment-cards.png") no-repeat right -145px;
+}
 .help-block {
   margin-top: 6px;
   margin-bottom: 0px;
@@ -300,6 +309,18 @@ td.full {
   padding: 0;
   background: none;
   border: none;
+}
+input.input-text {
+  height: 39px;
+  line-height: 39px;
+  padding: 10px 8px 10px 12px;
+  box-sizing: border-box;
+}
+select.select {
+  height: 39px;
+  line-height: 39px;
+  padding: 10px 8px 10px 12px;
+  box-sizing: border-box;
 }
 input.input-text,
 select.select {
