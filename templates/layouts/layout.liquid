@@ -13,6 +13,7 @@
 	</style>
 	{{ "bootstrap-responsive.css" | asset_url | stylesheet_tag }}
 	{{ "font-awesome.css" | asset_url | stylesheet_tag }}
+	{{ "google-code-prettify/prettify.css" | asset_url | stylesheet_tag }}
 	{{ "prettyphoto/css/prettyPhoto.css" | asset_url | stylesheet_tag }}
 	{{ "mixture.css" | asset_url | stylesheet_tag }}
 	{{ "sbx-shop.css" | asset_url | stylesheet_tag }}
@@ -36,10 +37,15 @@
 
 	<script src="//code.jquery.com/jquery.min.js"></script>
 	{{ "bootstrap.js" | asset_url | script_tag }}
+	{{ "google-code-prettify/prettify.js" | asset_url | script_tag }}
 	{{ "prettyphoto/js/jquery.prettyPhoto.js" | asset_url | script_tag }}
 	{{ "mosaic/js/mosaic.1.0.1.js" | asset_url | script_tag }}
 
 	<script type="text/javascript" charset="utf-8">
+		
+		// make code pretty
+    		window.prettyPrint && prettyPrint()
+
 		$(document).ready(function(){
 			$("a[rel^='prettyPhoto']").prettyPhoto();
 			// $('.bar').mosaic({
