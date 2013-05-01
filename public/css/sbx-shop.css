@@ -1,3 +1,8 @@
+.shop * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .section {
   color: #555;
   margin: 3em 0 0 0;
@@ -16,6 +21,9 @@
 }
 .section .message p:last-child {
   margin-bottom: 0;
+}
+.section .controls .symbol {
+  line-height: 39px;
 }
 .section-pageheader {
   margin: 0px;
@@ -146,7 +154,7 @@
   background-color: #fdfdfd;
 }
 .cart-table td.item-thumb {
-  width: 65px;
+  width: 100px;
 }
 .cart-table td.item-price,
 .cart-table td.item-total {
@@ -230,7 +238,7 @@
   vertical-align: middle;
 }
 .order-table td.item-thumb {
-  width: 35px;
+  width: 70px;
 }
 .order-table td.item-qty,
 .order-table td.item-times {
@@ -280,10 +288,10 @@
   position: relative;
 }
 input.input-creditcard {
-  background: url("../img/payment-cards.png") no-repeat right -13px;
+  background: url("../images/payment/payment-cards.png") no-repeat right -13px;
 }
 input.input-ccv {
-  background: url("../img/payment-cards.png") no-repeat right -145px;
+  background: url("../images/payment/payment-cards.png") no-repeat right -145px;
 }
 .help-block {
   margin-top: 6px;
@@ -349,13 +357,13 @@ td.full {
 input.input-text {
   height: 39px;
   line-height: 39px;
-  padding: 10px 8px 10px 12px;
+  padding: 8px 8px 8px 12px;
   box-sizing: border-box;
 }
 select.select {
   height: 39px;
   line-height: 39px;
-  padding: 10px 8px 10px 12px;
+  padding: 8px 8px 8px 12px;
   box-sizing: border-box;
 }
 input.input-text,
@@ -363,5 +371,5 @@ select.select {
   margin-bottom: 0;
 }
 .input-block-level {
-  min-height: 34px;
+  min-height: inherit !important;
 }
